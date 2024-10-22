@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,48 +22,48 @@
                 <div class="col-12">
                     <a class="navbar-brand" href="#">
                         <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
-                         class="d-inline-block align-text-top">
+                             class="d-inline-block align-text-top">
                     </a>
                     <h3>
-                    Меню
+                        Меню
                     </h3>
                 </div>
             </div>
-                <hr>
+            <hr>
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
-                Главная
+                <a href="/?page=home" class="list-group-item list-group-item-action bg-dark text-white">
+                    Главная
                 </a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Категории</a>
+                <a href="/?page=catalog" class="list-group-item list-group-item-action bg-dark text-white">Категории</a>
                 <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Заказы</a>
-                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Контакты</a>
+                <a href="/?page=contacts" class="list-group-item list-group-item-action active" aria-current="true">Контакты</a>
             </div>
             <hr>
             <div class="row">
                 <div class="dropdown">
-                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
-                   id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="" width="32" height="32"
-                         class="rounded-circle me-2">
-                    <strong>Пользователь</strong>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                    <li><a class="dropdown-item" href="#">Профиль</a></li>
-                    <li><a class="dropdown-item" href="#">Выход</a></li>
-                </ul>
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                       id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="" width="32" height="32"
+                             class="rounded-circle me-2">
+                        <strong>Пользователь</strong>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">Профиль</a></li>
+                        <li><a class="dropdown-item" href="#">Выход</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-8 mt-5">
+    <div class="col-9 mt-3 ml-5">
         <div class="row">
-            <div class="col-12">
+            <div class="col-10">
                 <div class="row text-center">
-                    <h1>Контакты</h1>
+                    <h1 class="fw-semibold">Контакты</h1>
                 </div>
                 <div class="row mt-3">
-                    <div class="container ml-5">
-                        <div class="row row-cols-2 mr-5">
+                    <div class="container">
+                        <div class="row row-cols-2">
                             <div class="col">
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">ФИО</label>
@@ -81,9 +81,15 @@
                                 </div>
                                 <a href="#" class="btn btn-primary">Отправить</a>
                             </div>
-                            <div class="col mt-4"><h2>Наши контакты</h2><p>Пингви́новые, или пингви́ны — семейство нелетающих морских птиц,
-                                единственное современное в отряде пингвинообра́зных. В него включают 16 современных
-                                видов. Все представители этого семейства быстро плавают и ныряют. </p></div>
+                            <div class="col mt-1 p-4"><h2>Наши контакты</h2>
+                                <p class="fst-italic text-secondary">С 1980-х годов в глубоких водах Тихого океана в
+                                    полном одиночестве путешествует
+                                    существо, похожее на кита.<br>
+                                    День за днем он поет свою 52-герцевую песню в надежде быть наконец
+                                    услышанным.</br></p>
+
+                                <strong>Мы готовы ответить на ваши вопросы в любое время суток!</strong>
+                            </div>
                         </div>
                     </div>
                 </div>
